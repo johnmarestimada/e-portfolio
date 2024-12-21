@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estimada - ePortfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav class="flex justify-center bg-yellow-200 py-4">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Home Section -->
+    <section id="home" class="section-home">
+        <div class="container">
+            <img src="assets/images/profile-pic.jpg" alt="Your Profile Picture" class="profile-img">
+        </div>
+        <p></p>
+             <!-- Text Content -->
+             <div class="text-content"> <
+                <h2>I'm John Mar Estimada</h2>
+                <h3>A Computer Science Student</h3>
+                <p>A passionate and driven computer science student with a keen interest in technology and problem-solving. Skilled in programming, algorithms, and software development, you thrive on exploring innovative solutions and staying updated with the latest tech trends. With a strong foundation in computational thinking and a curiosity for learning, you're on a path to excel in the ever-evolving tech industry.</p>
+            </div>
+            <br> </br>
+            <div class="social-media">
+              
+                <a href="https://www.instagram.com/itsjmdear/" target="_blank">
+                    <img src="assets/images/instagram.jpg" alt="Instagram">
+                </a>
+                <a href="https://github.com/johnmarestimada" target="_blank">
+                    <img src="assets/images/github-logo.png" alt="GitHub">
+                </a>
+                <a href="https://www.facebook.com/johnmar.maagad/" target="_blank">
+                    <img src="assets/images/facebook.png" alt="Facebook">
+                </a>
+            </div>
+    </section>
+     <!-- About Section -->
+     <section id="about" class="section-about">
+        <h2>About Me</h2>
+        <p>
+            I am a computer science student with a growing interest in programming, algorithms, and software development.
+            My studies have helped me build a solid foundation in problem-solving and logical thinking, and I enjoy 
+            working on projects that allow me to apply what I’ve learned in practical ways. 
+            I am particularly interested in exploring fields like software engineering and data analysis as I continue to develop my skills.
+<br>
+            I enjoy working both independently and as part of a team to solve challenges and learn new concepts.
+            I am always looking for ways to improve and expand my knowledge, whether by experimenting with new technologies or diving deeper into subjects.
+            I’m passionate about. My goal is to gain valuable experience and contribute meaningfully to the field of technology.
+</br>
+        </p>
+       <p></p>
+        <ul>
+            <li><strong>Frontend Development:</strong> Capable of designing and building responsive and user-friendly front-end interfaces using modern web technologies.</li>
+            <li><strong>Backend Frameworks:</strong> Capable of developing robust and efficient back-end systems, focusing on server-side logic, databases, and API integrations.</li>
+            <li><strong>Full Stack Development:</strong>capable of developing full-stack applications, combining front-end design and back-end functionality to deliver complete and efficient solutions</li>
+            <li><strong>Game Development:</strong> Enhancing TicTacToe Game using java making it more complex   .</li>
+            <li><strong>TicTacToe Game Enhancement:</strong> Ehancing TicTacToe like making more box and making it complex. It is more like a TicTacToe inside a TicTacToe. </li>
+        
+        </ul>
+    </section>
+
+  <!-- Projects Section -->
+<section id="projects" class="section-projects">
+    <h2>My Projects</h2>
+    <div class="carousel-container">
+        <button class="carousel-nav prev" aria-label="Previous Project">‹</button>
+        <div class="carousel">
+            <!-- Projects will be dynamically inserted here -->
+        </div>
+        <button class="carousel-nav next" aria-label="Next Project">›</button>
+    </div>
+</section>
+ 
+<!-- Contact Section -->
+<section id="contact" class="p-8 bg-gradient-to-b from-[#1e293b] to-[#0f172a] text-black">
+    <h2 class="text-3xl font-bold text-center mb-6">Contact Me</h2>
+    <form action="https://formspree.io/f/mdkovada" method="POST" class="max-w-lg mx-auto p-6 bg-gray-50 border border-gray-200 rounded-lg shadow-lg">
+        <div class="mb-4">
+            <label for="name" class="block text-gray-700 font-medium mb-2">Name:</label>
+            <input type="text" id="name" name="name" required class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        <div class="mb-4">
+            <label for="email" class="block text-gray-700 font-medium mb-2">Email:</label>
+            <input type="email" id="email" name="email" required class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        <div class="mb-4">
+            <label for="message" class="block text-gray-700 font-medium mb-2">Message:</label>
+            <textarea id="message" name="message" required class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">Submit</button>
+    </form>
+</section>
+
+<footer class="flex flex-col items-center gap-2 p-4 bg-gray-100 text-center">
+    <p class="m-0 text-base font-normal">
+        &copy; 2024 <strong>John Mar Estimada</strong>. All rights reserved.
+    </p>
+    <p class="m-0 text-base">
+        Contact: 
+        <a href="mailto:your.johnmar11.jme@gmail.com" class="text-emerald-500 hover:text-emerald-600 transition duration-300">
+            johnmar11.jme@gmail.com
+        </a>
+    </p>
+    <p style="margin: 10px 0 0; font-size: 1rem; display: flex; align-items: center; gap: 5px;">
+        <a href="#top" style="display: inline-flex; align-items: center; text-decoration: none; color: #F39C12; font-weight: bold; border: 2px solid #F39C12; padding: 10px 20px; border-radius: 5px; transition: all 0.3s; position: relative; overflow: hidden;">
+            <span style="position: relative; z-index: 1;">Back to top</span>
+            <span style="position: absolute; top: 50%; right: -25px; transform: translateY(-50%); width: 15px; height: 15px; border: solid #F39C12; border-width: 2px 2px 0 0; transform: rotate(45deg); transition: all 0.3s;"></span>
+        </a>
+    </p>
+</footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
